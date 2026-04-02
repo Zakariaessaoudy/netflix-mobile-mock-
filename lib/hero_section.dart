@@ -8,7 +8,7 @@ class HeroSection extends StatelessWidget {
     return Stack(
       children: [
         Image.asset(
-          'assets/images/elevation.webp',
+          'assets/images/demon.webp',
           fit: BoxFit.cover,
           width: double.infinity,
         ),
@@ -35,7 +35,6 @@ class HeroSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             children: [
-              // ElevatedButton(onPressed: () => {}, child: Icon(Icons.add)),
               Column(
                 children: [
                   IconButton(

@@ -21,7 +21,7 @@ class NetflixCloneApp extends StatelessWidget {
     //which provides information about the location of this widget in the widget tree.
     // We use this context to access theme data, media queries, and other inherited widgets.
     //In this case, we will use it to build our MaterialApp widget.
-    final List<String> trendingMovies = [
+    final trendingMovies = [
       'assets/images/b_avatar.webp',
       'assets/images/b_greenland.webp',
       'assets/images/b_drhouse.webp',
@@ -42,7 +42,7 @@ class NetflixCloneApp extends StatelessWidget {
         //
         backgroundColor: Colors.black,
         body: SingleChildScrollView(
-          child: Column(j
+          child: Column(
             children: [
               HeroSection(),
 
